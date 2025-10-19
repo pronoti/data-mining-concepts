@@ -1,6 +1,6 @@
 import pandas
 import pandas as pd
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("../data/iris.csv")
 print(type(df))
 print(df.head())
 print(df.columns)
